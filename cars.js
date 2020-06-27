@@ -17,7 +17,7 @@ const displayFunctions = {
 console.log(displayFunctions);
 
 function generateCars(numberOfCars, isArray) {
-  //return array with Cars ( each car is an object in JS)
+  //return array with Cars ( each car  is is an object in JS)
   if (typeof numberOfCars !== "number") return;
   const cars = isArray ? [] : {};
   for (let index = 0; index < numberOfCars; index++) {
